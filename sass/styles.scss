@@ -1,40 +1,16 @@
-// Tipografía
-$fuente-base: "Segoe UI", Arial, Helvetica, sans-serif;
+@import "settings";
 
-// Reset  
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "partials/header";
+@import "partials/hero";
+@import "partials/community";
+@import "partials/blog";
+@import "partials/call-to-action";
+@import "partials/clients";
+@import "partials/footer";
+@import "partials/footer-guide";
+@import "partials/helpers";
+@import "partials/testimonial";
+@import "partials/stats";
+@import "partials/showcase";
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: $fuente-base;
-    color: $color-texto;
-    background-color: $color-fondo;
-}
-
-h1,
-h2,
-h3 {
-    color: $color-oscuro;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-button {
-    font-family: inherit;
-    border: none;
-    cursor: pointer;
-}
+@import "lib/reset";

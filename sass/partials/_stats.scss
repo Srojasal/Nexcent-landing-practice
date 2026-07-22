@@ -1,0 +1,48 @@
+
+.stats {
+padding-top: 56px;
+padding-bottom: 56px;
+background-color: #f5f6fa;
+}
+
+.stats-content {
+width: 40%;
+float: left;
+}
+
+.stats-title {
+font-size: 26px;
+margin-bottom: 8px;
+}
+
+.stats-text {
+color: #6b7280;
+}
+
+.stats-list {
+width: 55%;
+float: right;
+}
+
+/* 2 columnas: 100 - 6 (espacio) = 94, 94 / 2 = 47 */
+.stat-item {
+width: 47%;
+float: left;
+margin-bottom: 24px;
+}
+
+.stat-item:nth-child(even) {
+margin-left: 6%;
+}
+
+.stat-number {
+display: block;
+font-size: 22px;
+font-weight: 700;
+color: #1f2a33;
+}
+
+.stat-label {
+color: #6b7280;
+font-size: 14px;
+}

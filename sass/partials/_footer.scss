@@ -1,0 +1,95 @@
+#footer {
+background-color: #1f2a33;
+color: #cbd3da;
+padding-top: 56px;
+padding-bottom: 56px;
+}
+
+.footer-brand {
+width: 34%;
+float: left;
+}
+
+.footer-logo {
+font-size: 20px;
+font-weight: 700;
+color: #ffffff;
+margin-bottom: 12px;
+}
+
+.footer-copy {
+font-size: 13px;
+color: #9aa4ad;
+}
+
+.footer-social {
+display: flex;
+margin-top: 20px;
+}
+
+.footer-social li + li {
+margin-left: 16px;
+}
+
+.footer-social a {
+font-size: 13px;
+color: #cbd3da;
+}
+
+.footer-social a:hover {
+color: #4caf50;
+}
+
+/* 3 columnas restantes despues de la marca (66%): 66 / 3 = 22 con un poco de espacio */
+.footer-col {
+width: 20%;
+float: left;
+margin-left: 3%;
+}
+
+.footer-newsletter {
+width: 23%;
+}
+
+.footer-col-title {
+color: #ffffff;
+font-size: 15px;
+margin-bottom: 16px;
+}
+
+.footer-links li {
+margin-bottom: 10px;
+}
+
+.footer-links a {
+font-size: 14px;
+color: #cbd3da;
+}
+
+.footer-links a:hover {
+color: #4caf50;
+}
+
+.footer-form {
+display: flex;
+}
+
+.footer-input {
+width: 65%;
+padding: 10px 12px;
+border-radius: 8px;
+border: 1px solid #3a4750;
+background-color: #2a3841;
+color: #ffffff;
+font-size: 13px;
+}
+
+.footer-submit {
+width: 35%;
+padding: 10px;
+border-radius: 8px;
+background-color: #4caf50;
+color: #ffffff;
+font-size: 13px;
+font-weight: 600;
+}

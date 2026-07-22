@@ -1,0 +1,28 @@
+.container {
+max-width: 1170px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.clearfix::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.btn {
+display: inline-block;
+padding: 14px 28px;
+border-radius: 8px;
+font-weight: 600;
+font-size: 15px;
+}
+
+.btn-primary {
+background-color: #4caf50;
+color: #ffffff;
+}
+
+.btn-primary:hover {
+background-color: #3d9140;
+}

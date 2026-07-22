@@ -1,0 +1,55 @@
+
+.testimonial {
+padding-top: 56px;
+padding-bottom: 56px;
+background-color: #f5f6fa;
+}
+
+.testimonial-logo {
+width: 22%;
+float: left;
+height: 260px;
+background-color: #1f2a33;
+border-radius: 8px;
+}
+
+.testimonial-content {
+width: 72%;
+float: right;
+}
+
+.testimonial-text {
+color: #6b7280;
+margin-bottom: 24px;
+}
+
+.testimonial-author {
+font-weight: 700;
+color: #4caf50;
+}
+
+.testimonial-role {
+color: #6b7280;
+font-size: 14px;
+margin-bottom: 24px;
+}
+
+.testimonial-clients {
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+}
+
+.testimonial-client {
+width: 40px;
+height: 28px;
+background-color: #d9dde3;
+border-radius: 4px;
+margin-right: 24px;
+}
+
+.testimonial-link {
+color: #4caf50;
+font-weight: 600;
+font-size: 14px;
+}

@@ -1,0 +1,49 @@
+.blog {
+text-align: center;
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.blog-title {
+font-size: 30px;
+margin-bottom: 8px;
+}
+
+.blog-subtitle {
+color: #6b7280;
+max-width: 620px;
+margin: 0 auto 48px;
+}
+
+/* calculo: 96 / 3 = 32 */
+.blog-card {
+width: 32%;
+float: left;
+text-align: left;
+border: 1px solid #e5e7eb;
+border-radius: 8px;
+overflow: hidden;
+}
+
+.blog-card + .blog-card {
+margin-left: 2%;
+}
+
+.blog-card-image {
+width: 100%;
+height: 180px;
+background-color: #d9dde3;
+}
+
+.blog-card-title {
+font-size: 16px;
+padding: 20px 20px 12px;
+}
+
+.blog-card-link {
+display: block;
+color: #4caf50;
+font-weight: 600;
+font-size: 14px;
+padding: 0 20px 20px;
+}

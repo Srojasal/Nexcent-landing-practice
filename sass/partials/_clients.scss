@@ -1,0 +1,29 @@
+.clients {
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.clients-title {
+font-size: 28px;
+margin-bottom: 8px;
+}
+
+.clients-subtitle {
+color: #6b7280;
+margin-bottom: 48px;
+}
+
+.clients-list {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.client-item {
+width: 60px;
+height: 40px;
+background-color: #d9dde3;
+border-radius: 4px;
+}

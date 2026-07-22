@@ -1,0 +1,52 @@
+.community {
+text-align: center;
+padding-bottom: 96px;
+}
+
+.community-title {
+font-size: 30px;
+max-width: 620px;
+margin: 0 auto 8px;
+}
+
+.community-subtitle {
+color: #6b7280;
+margin-bottom: 48px;
+}
+
+/* 3 tarjetas por fila
+100 - 4 (espacio entre tarjetas) = 96
+96 / 3 = 32 */
+.community-card {
+width: 32%;
+float: left;
+text-align: left;
+background-color: #ffffff;
+border: 1px solid #e5e7eb;
+border-radius: 8px;
+padding: 32px;
+}
+
+.community-card + .community-card {
+margin-left: 2%;
+}
+
+.card-icon {
+width: 48px;
+height: 48px;
+border-radius: 8px;
+background-color: #e8f5e9;
+margin-bottom: 20px;
+}
+
+.card-title {
+font-size: 18px;
+margin-bottom: 12px;
+}
+
+.card-text {
+color: #6b7280;
+font-size: 14px;
+}
+
+
